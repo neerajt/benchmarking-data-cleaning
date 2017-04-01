@@ -1,0 +1,7 @@
+311-data/*
+test-data/*
+test-outputs/*
+by-year/*
+.DS_Store
+*.swp
+*.swo
