@@ -7,13 +7,19 @@
 # test-scripts/clean_311.py
 # test-scripts/index.js
 
-i=0
+i=100000
 n=1759643
+infile="311-data/311-Public-Data-03142017-pipe-delimited-fmt.txt"
 
-while [$i -le $n];
+while [ $i -le $n ];
 do
-  time head -n $i |test-scripts/index.js test-outputs/output-timer-node.txt 
-  time head -n $i |test-scripts/clean_311.sh test-outputs/output-timer-bash.txt
-  time head -n $i |test-scripts/clean_311.py test-outputs/output-timer-python.txt
-  i = $(($i + 100000))
+  echo "--------- head $i ---------------"
+  echo "bash-script"
+  time head -n $i $infile|test-scripts/fast-downstream-bash.sh test-outputs/output-timer-bash.txt
+  echo "node-script"
+  time head -n $i $infile|test-scripts/clean_311.js test-outputs/output-timer-node.txt 
+  echo "python-script"
+  time head -n $i $infile|test-scripts/clean_311.py test-outputs/output-timer-python.txt
+  echo "--------------------------------"
+  i=$(($i + 100000))
 done
