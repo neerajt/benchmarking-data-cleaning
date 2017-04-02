@@ -5,3 +5,4 @@ by-year/*
 .DS_Store
 *.swp
 *.swo
+lib*
