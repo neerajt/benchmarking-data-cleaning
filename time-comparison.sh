@@ -15,11 +15,11 @@ while [ $i -le $n ];
 do
   echo "--------- head $i ---------------"
   echo "bash-script"
-  time head -n $i $infile|test-scripts/clean_311.sh test-outputs/output-timer-bash.txt
+  time head -n $i $infile|bash test-scripts/clean_311.sh test-outputs/output-timer-bash.txt
   echo "node-script"
-  time head -n $i $infile|test-scripts/clean_311.js test-outputs/output-timer-node.txt 
+  time head -n $i $infile|node test-scripts/clean_311.js test-outputs/output-timer-node.txt 
   echo "python-script"
-  time head -n $i $infile|test-scripts/clean_311.py test-outputs/output-timer-python.txt
+  time head -n $i $infile|python3 test-scripts/clean_311.py test-outputs/output-timer-python.txt
   echo "--------------------------------"
   i=$(($i + 100000))
 done
