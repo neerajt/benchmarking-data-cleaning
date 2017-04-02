@@ -14,7 +14,7 @@ process_line <- function (str_as_vector, number_of_pipes) {
 
 number_of_pipes <- 0
 file.create(write_filename)
-f <- file("stdin")
+f <- file("stdin", encoding = 'latin1')
 open(f)
 while(length(line <- readLines(f,n=1)) > 0) {
   row_as_vector <- string_to_vector(line)
@@ -27,6 +27,4 @@ while(length(line <- readLines(f,n=1)) > 0) {
   }
 
   write(write_line, file = write_filename, append = TRUE)
-  rm(row_as_vector)
-  gc()
 }
