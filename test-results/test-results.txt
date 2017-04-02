@@ -1,0 +1,289 @@
+--------- head 100000 ---------------
+bash-script
+
+real	0m1.170s
+user	0m0.874s
+sys	0m0.419s
+node-script
+
+real	0m2.612s
+user	0m2.321s
+sys	0m1.506s
+python-script
+
+real	0m1.229s
+user	0m1.062s
+sys	0m0.251s
+--------------------------------
+--------- head 200000 ---------------
+bash-script
+
+real	0m2.234s
+user	0m1.791s
+sys	0m0.684s
+node-script
+
+real	0m4.516s
+user	0m4.142s
+sys	0m2.636s
+python-script
+
+real	0m2.511s
+user	0m2.182s
+sys	0m0.502s
+--------------------------------
+--------- head 300000 ---------------
+bash-script
+
+real	0m3.124s
+user	0m2.532s
+sys	0m0.977s
+node-script
+
+real	0m6.440s
+user	0m6.095s
+sys	0m4.002s
+python-script
+
+real	0m3.738s
+user	0m3.245s
+sys	0m0.740s
+--------------------------------
+--------- head 400000 ---------------
+bash-script
+
+real	0m4.109s
+user	0m3.334s
+sys	0m1.267s
+node-script
+
+real	0m8.354s
+user	0m7.807s
+sys	0m5.149s
+python-script
+
+real	0m4.875s
+user	0m4.253s
+sys	0m0.961s
+--------------------------------
+--------- head 500000 ---------------
+bash-script
+
+real	0m5.074s
+user	0m4.121s
+sys	0m1.589s
+node-script
+
+real	0m10.464s
+user	0m9.704s
+sys	0m6.472s
+python-script
+
+real	0m6.170s
+user	0m5.383s
+sys	0m1.205s
+--------------------------------
+--------- head 600000 ---------------
+bash-script
+
+real	0m6.001s
+user	0m4.855s
+sys	0m1.879s
+node-script
+
+real	0m12.809s
+user	0m11.885s
+sys	0m8.085s
+python-script
+
+real	0m7.473s
+user	0m6.481s
+sys	0m1.462s
+--------------------------------
+--------- head 700000 ---------------
+bash-script
+
+real	0m7.681s
+user	0m5.947s
+sys	0m2.457s
+node-script
+
+real	0m14.503s
+user	0m13.500s
+sys	0m8.960s
+python-script
+
+real	0m8.607s
+user	0m7.477s
+sys	0m1.727s
+--------------------------------
+--------- head 800000 ---------------
+bash-script
+
+real	0m7.914s
+user	0m6.411s
+sys	0m2.473s
+node-script
+
+real	0m16.317s
+user	0m15.171s
+sys	0m10.568s
+python-script
+
+real	0m9.722s
+user	0m8.419s
+sys	0m1.939s
+--------------------------------
+--------- head 900000 ---------------
+bash-script
+
+real	0m8.997s
+user	0m7.254s
+sys	0m2.839s
+node-script
+
+real	0m18.406s
+user	0m17.281s
+sys	0m11.933s
+python-script
+
+real	0m10.980s
+user	0m9.536s
+sys	0m2.189s
+--------------------------------
+--------- head 1000000 ---------------
+bash-script
+
+real	0m9.909s
+user	0m8.057s
+sys	0m3.051s
+node-script
+
+real	0m19.882s
+user	0m18.821s
+sys	0m13.001s
+python-script
+
+real	0m12.331s
+user	0m10.698s
+sys	0m2.464s
+--------------------------------
+--------- head 1100000 ---------------
+bash-script
+
+real	0m10.756s
+user	0m8.742s
+sys	0m3.339s
+node-script
+
+real	0m22.228s
+user	0m20.765s
+sys	0m14.670s
+python-script
+
+real	0m13.280s
+user	0m11.548s
+sys	0m2.656s
+--------------------------------
+--------- head 1200000 ---------------
+bash-script
+
+real	0m11.658s
+user	0m9.503s
+sys	0m3.648s
+node-script
+
+real	0m24.627s
+user	0m23.031s
+sys	0m16.118s
+python-script
+
+real	0m14.425s
+user	0m12.557s
+sys	0m2.872s
+--------------------------------
+--------- head 1300000 ---------------
+bash-script
+
+real	0m12.644s
+user	0m10.324s
+sys	0m3.902s
+node-script
+
+real	0m26.125s
+user	0m24.271s
+sys	0m17.068s
+python-script
+
+real	0m15.900s
+user	0m13.762s
+sys	0m3.180s
+--------------------------------
+--------- head 1400000 ---------------
+bash-script
+
+real	0m13.914s
+user	0m11.173s
+sys	0m4.337s
+node-script
+
+real	0m28.035s
+user	0m26.244s
+sys	0m18.609s
+python-script
+
+real	0m16.711s
+user	0m14.545s
+sys	0m3.372s
+--------------------------------
+--------- head 1500000 ---------------
+bash-script
+
+real	0m14.657s
+user	0m11.892s
+sys	0m4.593s
+node-script
+
+real	0m29.781s
+user	0m28.015s
+sys	0m19.792s
+python-script
+
+real	0m17.727s
+user	0m15.477s
+sys	0m3.516s
+--------------------------------
+--------- head 1600000 ---------------
+bash-script
+
+real	0m15.643s
+user	0m12.705s
+sys	0m4.868s
+node-script
+
+real	0m31.281s
+user	0m29.700s
+sys	0m20.935s
+python-script
+
+real	0m19.381s
+user	0m16.859s
+sys	0m3.869s
+--------------------------------
+--------- head 1700000 ---------------
+bash-script
+
+real	0m16.491s
+user	0m13.427s
+sys	0m5.184s
+node-script
+
+real	0m33.612s
+user	0m31.315s
+sys	0m22.216s
+python-script
+
+real	0m20.434s
+user	0m17.761s
+sys	0m4.031s
+--------------------------------
